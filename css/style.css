@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    background: #fff;
+    font-family: 'CircularStd';
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 15px;
+    position: relative;
+}
+
+.menu{
+    padding: 35px;
+    padding-top: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 780px) {
+    .menu{
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    .menu .works{
+        display: none;
+    }
+}
+
+.menu a{
+    color: #aaa !important;
+    text-decoration: none !important;
+    font-size: 12px;
+}
+
+.menu a span.number{
+    width: 40px;
+    display: inline-block;
+}
+
+.menu a.nombre{
+    text-transform: uppercase;
+    color: #aaa !important;
+}
+
+.menu .works{
+    margin-top: 40px;
+}
+
+.menu .works a{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.menu .works .work{
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.works .tag{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #aaa;
+}
+
+.container{
+    max-width: 750px;
+    margin-left: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .container{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.wound img{
+    width: 100%;
+    /* box-shadow: 0px 5px 5px rgba(0,0,0,0.0); */
+    /* border: 20px solid #fff; */
+}
+
+.artwork p{
+    margin-top: 15px;
+}
+
+.artwork{
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.artwork.smaller{
+    max-width: 400px;
+}
+
+.tag{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.tag span{
+    font-size: 11px;
+}
+
+h1{
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* letter-spacing: -1px; */
+}
+
+.wound{
+    margin-top: 100px;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+.header .desc{
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.desc{
+    font-weight: 400;
+    color: #555;
+    line-height: 1.57;
+    font-size: 15px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
